@@ -1,0 +1,71 @@
+####################################
+#### BOOTSTRAP CONTENT ELEMENTS ####
+####################################
+mod.wizards {
+    newContentElement {
+        wizardItems {
+            bootstrap {
+                header = LLL:fileadmin/Template/Resources/Private/Language/Backend.xlf:theme_name
+                elements {
+                    bootstrap_package_texticon {
+                        icon = ../fileadmin/Template/Resources/Public/Images/ContentWizard/texticon.png
+                        title = LLL:fileadmin/Template/Resources/Private/Language/Backend.xlf:content_element.texticon
+                        description = LLL:fileadmin/Template/Resources/Private/Language/Backend.xlf:content_element.texticon.description
+                        tt_content_defValues {
+                            CType = bootstrap_package_texticon
+                        }
+                    }
+                    bootstrap_package_carousel {
+                        icon = ../fileadmin/Template/Resources/Public/Images/ContentWizard/carousel.png
+                        title = LLL:fileadmin/Template/Resources/Private/Language/Backend.xlf:content_element.carousel
+                        description = LLL:fileadmin/Template/Resources/Private/Language/Backend.xlf:content_element.carousel.description
+                        tt_content_defValues {
+                            CType = bootstrap_package_carousel
+                        }
+                    }
+                    bootstrap_package_accordion {
+                        icon = ../fileadmin/Template/Resources/Public/Images/ContentWizard/accordion.png
+                        title = LLL:fileadmin/Template/Resources/Private/Language/Backend.xlf:content_element.accordion
+                        description = LLL:fileadmin/Template/Resources/Private/Language/Backend.xlf:content_element.accordion.description
+                        tt_content_defValues {
+                            CType = bootstrap_package_accordion
+                        }
+                    }
+                    bootstrap_package_tab {
+                        icon = ../fileadmin/Template/Resources/Public/Images/ContentWizard/tab.png
+                        title = LLL:fileadmin/Template/Resources/Private/Language/Backend.xlf:content_element.tab
+                        description = LLL:fileadmin/Template/Resources/Private/Language/Backend.xlf:content_element.tab.description
+                        tt_content_defValues {
+                            CType = bootstrap_package_tab
+                        }
+                    }
+                    bootstrap_package_panel {
+                        icon = ../fileadmin/Template/Resources/Public/Images/ContentWizard/panel.png
+                        title = LLL:fileadmin/Template/Resources/Private/Language/Backend.xlf:content_element.panel
+                        description = LLL:fileadmin/Template/Resources/Private/Language/Backend.xlf:content_element.panel.description
+                        tt_content_defValues {
+                            CType = bootstrap_package_panel
+                        }
+                    }
+                    bootstrap_package_listgroup {
+                        icon = ../fileadmin/Template/Resources/Public/Images/ContentWizard/listgroup.png
+                        title = LLL:fileadmin/Template/Resources/Private/Language/Backend.xlf:content_element.listgroup
+                        description = LLL:fileadmin/Template/Resources/Private/Language/Backend.xlf:content_element.listgroup.description
+                        tt_content_defValues {
+                            CType = bootstrap_package_listgroup
+                        }
+                    }
+                    bootstrap_package_external_media {
+                        icon = ../fileadmin/Template/Resources/Public/Images/ContentWizard/external_media.png
+                        title = LLL:fileadmin/Template/Resources/Private/Language/Backend.xlf:content_element.external_media
+                        description = LLL:fileadmin/Template/Resources/Private/Language/Backend.xlf:content_element.external_media.description
+                        tt_content_defValues {
+                            CType = bootstrap_package_external_media
+                        }
+                    }
+                }
+                show = *
+            }
+        }
+    }
+}
