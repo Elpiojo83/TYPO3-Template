@@ -7,8 +7,8 @@ INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/Template/Configuration/PageTS/TCEMAIN
 INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/Template/Configuration/PageTS/TCEFORM.txt"
 INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/Template/Configuration/PageTS/RTE.txt"
 INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/Template/Configuration/PageTS/Mod/web_layout.txt"
-INCLUDE_TYPOSCRIPT:source="FILE:fileadmin/template/Configuration/PageTS/Mod/Wizards/form.txt"
-INCLUDE_TYPOSCRIPT:source="FILE:fileadmin/template/Configuration/PageTS/Mod/Wizards/newContentElement.txt"
+INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/Template/Configuration/PageTS/Mod/Wizards/form.txt"
+INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/Template/Configuration/PageTS/Mod/Wizards/newContentElement.txt"
 </pre>
 
 Include Setup:
